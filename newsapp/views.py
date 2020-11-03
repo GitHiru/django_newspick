@@ -1,10 +1,10 @@
 from django.shortcuts import render
-from .models import News
 from django.views.generic import CreateView
 from django.urls import reverse_lazy
+from bs4 import BeautifulSoup
+from .models import News
 import urllib.request
 import requests
-from bs4 import BeautifulSoup
 
 # Create your views here.
 
